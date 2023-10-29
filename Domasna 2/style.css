@@ -1,0 +1,89 @@
+body {
+    background-image: url("https://img.freepik.com/premium-photo/tasty-pepperoni-pizza-black-concrete-background_79782-102.jpg");
+    background-color: lightcoral;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    font-style:initial;
+    font-weight: bolder;
+    text-shadow: -2px 2px 7px rgb(185, 1, 246);
+}
+
+
+table {
+    width: 50%;
+    color: whitesmoke;
+    background-color: rgba(203, 247, 6, 0.5);
+    border-collapse: collapse;
+    border-radius: 20px;  
+}
+
+
+select {
+    padding: 5px;
+    background-color: rgba(203, 247, 6, 0.5);
+    font-size: 15px;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+textarea {
+    padding: 5px;
+    background-color: rgba(203, 247, 6, 0.5);
+    font-size: 15px;
+    font-weight: 500;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+
+
+th, td {
+    padding: 2%;
+    border-bottom: 1px solid #ddd;
+}
+
+
+tr:hover {
+    background-color: rgba(234, 234, 233, 0.5);
+}
+
+
+input[type="text"]{
+    background-color: rgba(203, 247, 6, 0.5);
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+
+input[type="checkbox"]{
+    accent-color: lightcoral;
+    cursor: pointer;
+  }
+
+
+input[type="radio"]{
+    accent-color: lightcoral;
+    cursor: pointer;
+  }
+
+
+input[type=submit]:hover {
+    background-color: lightcoral;
+    color: white;
+}
